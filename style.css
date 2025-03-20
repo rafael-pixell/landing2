@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Sailec";
+    src: url("./font/sailec-bold_freefontdownload_org.zip");
+}
+
+@font-face {
+    font-family: "Titillium";
+    src: url("./font/titillium-web.zip");
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +15,7 @@
     text-decoration: none;
     list-style: none;
     color: rgba(102, 102, 102, 0.85);
-
+    font-family: "titillium";
 }
 
 header {
@@ -13,12 +23,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+}    
 
 nav ul {
     display: flex;
     align-items: center;
     gap: 22px;
+}
+
+nav a {
+    font-family: "sailec";
 }
 
 #academy {
@@ -35,7 +49,7 @@ nav ul {
 }
 
 h1 {
-    font-family: Sailec-Bold;
+    font-family: "sailec";
     font-weight: 400;
     font-size: 48px;
     line-height: 58.08px;
@@ -44,9 +58,117 @@ h1 {
 }
 
 p {
-    font-family: Titillium Web;
+    font-family: "titillium";
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0%;
+}
+
+#academy img {
+   margin-right: 120px;
+}
+
+#about img {
+    margin-left: 120px;
+    margin-right: 10px;
+}
+
+#about {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    color: rgba(74, 74, 74, 1);
+    font-family: "sailec";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.56px;
+    letter-spacing: 0.25px;
+}
+
+#about p {
+    margin-top: 15px;
+    margin-bottom: 21px;
+}
+
+.blue {
+    color: rgba(29, 111, 243, 1);
+    font-family: "t itillium";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0.25px;
+    text-align: center;
+
+}
+
+.data2 {
+    width: 458px;
+    margin-right: 247px;
+}
+
+#work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data3 {
+    width: 500px;
+    margin-right: 45px;
+    margin-left: 190px;
+}
+
+.data3 p {
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
+
+#work img {
+    margin-right: 120px;
+}
+
+#blog {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    width: 280px;
+    height: 245px;
+    padding: 20px 20px 15px 20px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    opacity: 0.95;
+}
+
+h3 {
+    color: rgba(74, 74, 74, 1);
+    font-family: "sailec";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.56px;
+    letter-spacing: 0.25px;
+} 
+
+.text p {
+    font-size: 16px;
+
 }
