@@ -132,12 +132,21 @@ h2 {
     margin-right: 120px;
 }
 
-#blog {
+section {
+    width: 100%;
+    max-width: 1700px;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#blog {
+    align-items: left;
+    /* gap: 30px; */
     flex-wrap: wrap;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 195px;
+    flex-direction: column;
+    margin-bottom: 80px;
 }
 
 .card {
@@ -170,5 +179,112 @@ h3 {
 
 .text p {
     font-size: 16px;
+}
 
+.red {
+    /* min-width: 1700px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    gap: 30px; 
+}
+
+#startLearning {
+    padding: 30px 180px 81px;
+    background-color: #EEE;
+}
+
+.cont {
+    display: flex;
+    min-width: 1050px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start p {
+    width: 463px;
+    margin-top: 18px;
+}
+
+.start h2 {
+    margin-top: 49px;
+}
+
+.cont form {
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.cont input {
+    width: 300px;
+    height: 42px;
+    color: #979797;
+    border-color: #979797;
+    padding-left: 7px;
+}
+
+.cont button {
+    margin-left: -1px;
+    background-color: rgba(29, 111, 243, 1);
+    padding: 0px 23px;
+    color: #fff;
+    border: 1px solid rgba(0,0,0, 0.05);
+    width: 400px;
+    font-style: 18px;
+    line-height: 40.56px;
+}
+
+footer {
+    padding: 50px 195px 100px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fblock {
+    width: 240px;
+}
+
+h4 {
+    margin-bottom: 16px;
+    font-family: Sailec-Bold;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: rgba(74, 74, 74, 1);
+}
+
+ul li {
+    font-family: "titillium";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: rgba(99, 114, 128, 1);
+}
+
+.gray {
+    width: 30px;
+    height: 3px;
+    background-color:rgba(0,0,0,0.1);
+}
+
+.soc {
+    display: flex;
+    gap: 9px;
+    align-items: end;
 }
